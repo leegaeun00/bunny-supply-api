@@ -1,0 +1,31 @@
+{
+  "name": "bunny-supply-api",
+  "version": "1.0.0",
+  "description": "api that displays bunny total supply",
+  "main": "BunnySupplyApi.js",
+  "type": "module",
+  "scripts": {
+    "test": "bunny-supply-api",
+    "start": "nodemon BunnySupplyApi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leegaeun00/bunny-supply-api.git"
+  },
+  "keywords": [
+    "bunny",
+    "supply"
+  ],
+  "author": "Lia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leegaeun00/bunny-supply-api/issues"
+  },
+  "homepage": "https://github.com/leegaeun00/bunny-supply-api#readme",
+  "dependencies": {
+    "big.js": "^6.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9",
+    "web3": "^1.4.0"
+  }
+}
